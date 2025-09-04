@@ -81,9 +81,14 @@ Seja criativo!
 
 Responda às questões abaixo diretamente neste arquivo `README.md` do seu fork:
 
-1. Repositório selecionado: <URL_DO_REPOSITORIO_SELECIONADO_AQUI>
-2. Gráfico selecionado: <IMAGEM_DO_GRAFICO_SELECIONADO_AQUI>
-3. Explicação: <EXPLICACAO_AQUI>
+1. Repositório selecionado: https://github.com/sherlock-project/sherlock
+   
+2.
+  <img width="1043" height="521" alt="image" src="https://github.com/user-attachments/assets/d358d01f-6c6c-42d6-bdcf-4a7911978bfe" />
 
+   Em relação as boas práticas, classes muito grandes podem ser um problema, já que, dificultam a manutenção do sistema, dessa forma, a redução de ~127 LOC para ~74 LOC vista no gráfico, pode indicar uma refatoração positiva, separando responsabilidades em classes menores, assim como funções menores costumam ser mais legíveis e fáceis de testar. Portanto, o projeto parece estar refatorando classes grandes em unidades menores, mantendo funções relativamente estáveis, para tornar mais fácil as futuras manutenções e correções que o sistema possa eventualmente passar.
 
+3.
+  <img width="1046" height="506" alt="image" src="https://github.com/user-attachments/assets/aa970a0d-a529-4114-af5b-223217c5cc26" />
 
+  O aumento de try e raise geralmente indica que há mais tratamento de exceções no código, ou seja, o código está capturando e gerando mais exceções explicitamente. Isso pode sugerir que o código está mais robusto, pois há mais previsibilidade na forma como erros são tratados. Dessa forma, um aumento no número de exceções tratadas ou levantadas não necessariamente significa que o software ficou “mais propenso a erros”, mas sim que os desenvolvedores adicionaram mais verificações e tratamentos. Pode também refletir mudanças na implementação ou na estratégia de tratamento, e não necessariamente aumento da robustez por si só.
